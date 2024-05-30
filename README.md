@@ -1,4 +1,4 @@
-# PDF Question and Answer with Sources (#https://pdf-to-chat.streamlit.app/)
+# PDF Question and Answer with Sources
 
 This project is a Streamlit application that allows users to upload one or more PDF documents, ask questions related to the contents of the uploaded PDFs, and get concise answers along with the relevant sources from the PDFs. The application leverages LangChain, OpenAI, and Chroma for efficient question-answering.
 
