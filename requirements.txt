@@ -1,0 +1,7 @@
+streamlit==1.10.0
+python-dotenv==0.19.2
+langchain==0.0.102
+langchain-openai==0.0.13
+langchain-chroma==0.0.10
+PyMuPDF==1.18.19
+chroma-db==0.3.0
