@@ -1,6 +1,0 @@
-streamlit
-python-dotenv
-langchain
-langchain-openai
-langchain-chroma
-pymudf  # PyMuPDF
