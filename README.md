@@ -124,4 +124,4 @@ pip install -r requirements.txt
 
 ## 📄 License
 
-This repository is licensed under the CC0-1.0 License. See the [LICENSE](LICENSE) file for more information.
+This repository is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
