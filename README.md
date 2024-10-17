@@ -1,24 +1,25 @@
-# PDF Question and Answer with Sources
+# 📄 PDF to Chat
 
-This **[pdf-to-chat.streamlit.app] (https://pdf-to-chat.streamlit.app/)** is a Streamlit application that allows users to upload one or more PDF documents, ask questions related to the contents of the uploaded PDFs, and get concise answers along with the relevant sources from the PDFs. The application leverages LangChain, OpenAI, and Chroma for efficient question-answering.
+Welcome to the **PDF to Chat** repository! This Streamlit application allows users to upload PDF documents, ask questions about the contents, and receive concise answers along with relevant sources from the PDFs. The app leverages LangChain, OpenAI, and Chroma for efficient question-answering.
 
-## Table of Contents
+## 📋 Table of Contents
 
-- [Features](#features)
-- [Setup](#setup)
-- [Usage](#usage)
-- [How It Works](#how-it-works)
-- [Dependencies](#dependencies)
-- [Acknowledgements](#acknowledgements)
+1. [Features](#features)
+2. [Setup](#setup)
+3. [Usage](#usage)
+4. [How It Works](#how-it-works)
+5. [Dependencies](#dependencies)
+6. [Acknowledgements](#acknowledgements)
+7. [License](#license)
 
-## Features
+## ✨ Features
 
-- **PDF Upload**: Upload one or more PDF files to be processed.
-- **Question and Answer**: Ask questions related to the content of the PDFs.
-- **Concise Answers**: Get concise answers to your questions.
-- **Source References**: See which parts of the PDFs were used to generate the answer.
+- **📁 PDF Upload**: Upload one or more PDF files to be processed.
+- **❓ Question and Answer**: Ask questions related to the content of the PDFs.
+- **📝 Concise Answers**: Get concise answers to your questions.
+- **🔍 Source References**: See which parts of the PDFs were used to generate the answer.
 
-## Setup
+## 🛠 Setup
 
 ### Prerequisites
 
@@ -30,10 +31,10 @@ This **[pdf-to-chat.streamlit.app] (https://pdf-to-chat.streamlit.app/)** is a S
 
 1. **Clone the repository:**
 
-    ```bash
-    git clone https://github.com/matthewlieb/pdf-to-chat.git
-    cd pdf-to-chat
-    ```
+```bash
+git clone https://github.com/matthewlieb/pdf-to-chat.git
+cd pdf-to-chat
+```
 
 2. **Create and activate a virtual environment:**
 
@@ -63,7 +64,7 @@ This **[pdf-to-chat.streamlit.app] (https://pdf-to-chat.streamlit.app/)** is a S
     LANGCHAIN_API_KEY=your_langchain_api_key
     ```
 
-## Usage
+## 🚀 Usage
 
 1. **Run the Streamlit application:**
 
@@ -78,7 +79,7 @@ This **[pdf-to-chat.streamlit.app] (https://pdf-to-chat.streamlit.app/)** is a S
     - Enter a question related to the content of the uploaded PDFs.
     - Click on the "Submit" button to get your answer and the sources from the PDFs.
 
-## How It Works
+## 🧐 How It Works
 
 ### Components
 
@@ -106,7 +107,7 @@ This **[pdf-to-chat.streamlit.app] (https://pdf-to-chat.streamlit.app/)** is a S
 5. **Displaying Results**:
     - The generated answer is displayed along with the sources (relevant PDF chunks).
 
-## Dependencies
+## 📦 Dependencies
 
 - `streamlit`
 - `python-dotenv`
@@ -119,3 +120,8 @@ You can install all dependencies using:
 
 ```bash
 pip install -r requirements.txt
+```
+
+## 📄 License
+
+This repository is licensed under the CC0-1.0 License. See the [LICENSE](LICENSE) file for more information.
