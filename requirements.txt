@@ -1,8 +1,8 @@
-streamlit
 python-dotenv
-langchain
-langchain-openai
-langchain-chroma
 PyMuPDF
+streamlit
+langchain
+langchain-community
+langchain-openai
 chromadb
-chroma
+openai
